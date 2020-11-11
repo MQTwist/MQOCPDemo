@@ -6,6 +6,8 @@
 //
 
 #import "ViewController.h"
+#import "TopicViewManager.h"
+#import "OCPTopicViewManager.h"
 
 @interface ViewController ()
 
@@ -15,7 +17,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    [self normal];
+    [self ocp];
+}
+
+- (void)normal {
+    [TopicViewManager displayWithType:@"Choice"];
+    [TopicViewManager displayWithType:@"FillBlank"];
+}
+
+- (void)ocp {
+    [OCPTopicViewManager displayWithView:(OCPTopicView *)[OCPTopicOfFillBlankView new]];
 }
 
 

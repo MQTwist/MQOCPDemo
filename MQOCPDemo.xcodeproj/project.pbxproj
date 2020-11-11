@@ -12,8 +12,15 @@
 		484BFF93255BDD0A003E92B9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFF92255BDD0A003E92B9 /* ViewController.m */; };
 		484BFF96255BDD0A003E92B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484BFF94255BDD0A003E92B9 /* Main.storyboard */; };
 		484BFF98255BDD0A003E92B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 484BFF97255BDD0A003E92B9 /* Assets.xcassets */; };
-		484BFF9B255BDD0A003E92B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484BFF99255BDD0A003E92B9 /* LaunchScreen.storyboard */; };
 		484BFF9E255BDD0A003E92B9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFF9D255BDD0A003E92B9 /* main.m */; };
+		484BFFA9255BDD4A003E92B9 /* TopicViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFFA8255BDD4A003E92B9 /* TopicViewManager.m */; };
+		484BFFAF255BDD9D003E92B9 /* TopicOfChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFFAE255BDD9D003E92B9 /* TopicOfChoiceView.m */; };
+		484BFFB3255BDDD8003E92B9 /* TopicOfFillBlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFFB2255BDDD8003E92B9 /* TopicOfFillBlankView.m */; };
+		484BFFBB255BE058003E92B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 484BFFBA255BE058003E92B9 /* LaunchScreen.storyboard */; };
+		484BFFC0255BE772003E92B9 /* OCPTopicViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFFBF255BE772003E92B9 /* OCPTopicViewManager.m */; };
+		484BFFC5255BE7A4003E92B9 /* OCPTopicView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFFC4255BE7A4003E92B9 /* OCPTopicView.m */; };
+		484BFFCA255BF197003E92B9 /* OCPTopicOfChoiceView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFFC9255BF197003E92B9 /* OCPTopicOfChoiceView.m */; };
+		484BFFCE255BF1B3003E92B9 /* OCPTopicOfFillBlankView.m in Sources */ = {isa = PBXBuildFile; fileRef = 484BFFCD255BF1B3003E92B9 /* OCPTopicOfFillBlankView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,9 +33,23 @@
 		484BFF92255BDD0A003E92B9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		484BFF95255BDD0A003E92B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		484BFF97255BDD0A003E92B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		484BFF9A255BDD0A003E92B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		484BFF9C255BDD0A003E92B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		484BFF9D255BDD0A003E92B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		484BFFA7255BDD4A003E92B9 /* TopicViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicViewManager.h; sourceTree = "<group>"; };
+		484BFFA8255BDD4A003E92B9 /* TopicViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicViewManager.m; sourceTree = "<group>"; };
+		484BFFAD255BDD9D003E92B9 /* TopicOfChoiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicOfChoiceView.h; sourceTree = "<group>"; };
+		484BFFAE255BDD9D003E92B9 /* TopicOfChoiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicOfChoiceView.m; sourceTree = "<group>"; };
+		484BFFB1255BDDD8003E92B9 /* TopicOfFillBlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TopicOfFillBlankView.h; sourceTree = "<group>"; };
+		484BFFB2255BDDD8003E92B9 /* TopicOfFillBlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TopicOfFillBlankView.m; sourceTree = "<group>"; };
+		484BFFBA255BE058003E92B9 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		484BFFBE255BE772003E92B9 /* OCPTopicViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPTopicViewManager.h; sourceTree = "<group>"; };
+		484BFFBF255BE772003E92B9 /* OCPTopicViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPTopicViewManager.m; sourceTree = "<group>"; };
+		484BFFC3255BE7A4003E92B9 /* OCPTopicView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPTopicView.h; sourceTree = "<group>"; };
+		484BFFC4255BE7A4003E92B9 /* OCPTopicView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPTopicView.m; sourceTree = "<group>"; };
+		484BFFC8255BF197003E92B9 /* OCPTopicOfChoiceView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPTopicOfChoiceView.h; sourceTree = "<group>"; };
+		484BFFC9255BF197003E92B9 /* OCPTopicOfChoiceView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPTopicOfChoiceView.m; sourceTree = "<group>"; };
+		484BFFCC255BF1B3003E92B9 /* OCPTopicOfFillBlankView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCPTopicOfFillBlankView.h; sourceTree = "<group>"; };
+		484BFFCD255BF1B3003E92B9 /* OCPTopicOfFillBlankView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCPTopicOfFillBlankView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,15 +86,45 @@
 				484BFF8C255BDD0A003E92B9 /* AppDelegate.m */,
 				484BFF8E255BDD0A003E92B9 /* SceneDelegate.h */,
 				484BFF8F255BDD0A003E92B9 /* SceneDelegate.m */,
+				484BFFBD255BE75F003E92B9 /* OCP */,
+				484BFFA6255BDD31003E92B9 /* Normal */,
 				484BFF91255BDD0A003E92B9 /* ViewController.h */,
 				484BFF92255BDD0A003E92B9 /* ViewController.m */,
 				484BFF94255BDD0A003E92B9 /* Main.storyboard */,
 				484BFF97255BDD0A003E92B9 /* Assets.xcassets */,
-				484BFF99255BDD0A003E92B9 /* LaunchScreen.storyboard */,
+				484BFFBA255BE058003E92B9 /* LaunchScreen.storyboard */,
 				484BFF9C255BDD0A003E92B9 /* Info.plist */,
 				484BFF9D255BDD0A003E92B9 /* main.m */,
 			);
 			path = MQOCPDemo;
+			sourceTree = "<group>";
+		};
+		484BFFA6255BDD31003E92B9 /* Normal */ = {
+			isa = PBXGroup;
+			children = (
+				484BFFA7255BDD4A003E92B9 /* TopicViewManager.h */,
+				484BFFA8255BDD4A003E92B9 /* TopicViewManager.m */,
+				484BFFAD255BDD9D003E92B9 /* TopicOfChoiceView.h */,
+				484BFFAE255BDD9D003E92B9 /* TopicOfChoiceView.m */,
+				484BFFB1255BDDD8003E92B9 /* TopicOfFillBlankView.h */,
+				484BFFB2255BDDD8003E92B9 /* TopicOfFillBlankView.m */,
+			);
+			path = Normal;
+			sourceTree = "<group>";
+		};
+		484BFFBD255BE75F003E92B9 /* OCP */ = {
+			isa = PBXGroup;
+			children = (
+				484BFFBE255BE772003E92B9 /* OCPTopicViewManager.h */,
+				484BFFBF255BE772003E92B9 /* OCPTopicViewManager.m */,
+				484BFFC3255BE7A4003E92B9 /* OCPTopicView.h */,
+				484BFFC4255BE7A4003E92B9 /* OCPTopicView.m */,
+				484BFFC8255BF197003E92B9 /* OCPTopicOfChoiceView.h */,
+				484BFFC9255BF197003E92B9 /* OCPTopicOfChoiceView.m */,
+				484BFFCC255BF1B3003E92B9 /* OCPTopicOfFillBlankView.h */,
+				484BFFCD255BF1B3003E92B9 /* OCPTopicOfFillBlankView.m */,
+			);
+			path = OCP;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,7 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				484BFF9B255BDD0A003E92B9 /* LaunchScreen.storyboard in Resources */,
+				484BFFBB255BE058003E92B9 /* LaunchScreen.storyboard in Resources */,
 				484BFF98255BDD0A003E92B9 /* Assets.xcassets in Resources */,
 				484BFF96255BDD0A003E92B9 /* Main.storyboard in Resources */,
 			);
@@ -146,9 +197,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				484BFF93255BDD0A003E92B9 /* ViewController.m in Sources */,
+				484BFFCE255BF1B3003E92B9 /* OCPTopicOfFillBlankView.m in Sources */,
+				484BFFCA255BF197003E92B9 /* OCPTopicOfChoiceView.m in Sources */,
+				484BFFB3255BDDD8003E92B9 /* TopicOfFillBlankView.m in Sources */,
+				484BFFA9255BDD4A003E92B9 /* TopicViewManager.m in Sources */,
+				484BFFAF255BDD9D003E92B9 /* TopicOfChoiceView.m in Sources */,
 				484BFF8D255BDD0A003E92B9 /* AppDelegate.m in Sources */,
 				484BFF9E255BDD0A003E92B9 /* main.m in Sources */,
 				484BFF90255BDD0A003E92B9 /* SceneDelegate.m in Sources */,
+				484BFFC5255BE7A4003E92B9 /* OCPTopicView.m in Sources */,
+				484BFFC0255BE772003E92B9 /* OCPTopicViewManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -161,14 +219,6 @@
 				484BFF95255BDD0A003E92B9 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		484BFF99255BDD0A003E92B9 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				484BFF9A255BDD0A003E92B9 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -293,6 +343,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQOCPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -310,6 +361,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = MQOCPDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
